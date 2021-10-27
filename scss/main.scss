@@ -88,8 +88,8 @@ nav {
 
 .details-btn,
 .buy-btn {
-  padding: 1.8rem 3rem;
-  border: none;
+  padding: 1.5rem 3rem;
+  border-color: transparent;
   background-color: $primary-color;
   color: $white-color;
   font-size: 1.5rem;
@@ -113,6 +113,7 @@ nav {
   align-items: center;
   list-style: none;
 }
+
 #lenders img {
   width: 60%;
   margin: 2rem;
@@ -157,4 +158,84 @@ nav {
   background-color: $white-color;
   color: $primary-color;
   font-size: 1.5rem;
+}
+
+#products h2 {
+  font-size: 6rem;
+  color: $primary-color;
+  text-align: center;
+}
+
+#products > p {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: $gray-color;
+  text-align: center;
+}
+
+.product-sections {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+.product-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 45%;
+  padding: 4rem;
+}
+
+.product-section img {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.product-section h3 {
+  font-size: 3rem;
+  color: $primary-color;
+  padding: 1rem 0;
+}
+
+.product-section > p {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: $gray-color;
+}
+
+.products-ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.product-rating {
+  margin: 0 3rem 0 0;
+}
+
+.product-rating hr {
+  border: 0.2rem solid $primary-color;
+  width: 40%;
+}
+
+.rating-title {
+  font-size: 1.8rem;
+  color: $gray-color;
+  padding-top: 0.5rem;
+}
+
+.product-rate {
+  font-size: 3rem;
+  font-weight: 700;
+  color: $darkGreen;
+}
+
+.product-buttons {
+  display: flex;
+}
+
+.product-buttons button {
+  margin-right: 2rem;
 }
