@@ -193,7 +193,7 @@ nav {
 }
 
 .product-section h3 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: $primary-color;
   padding: 1rem 0;
 }
@@ -267,4 +267,43 @@ nav {
 .franchises {
   border-right: 0.1rem solid $primary-color;
   border-left: 0.1rem solid $primary-color;
+}
+
+#special-product {
+  display: flex;
+  padding: 5rem;
+}
+
+.s-p-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 50%;
+}
+
+.s-p-img img {
+  width: 70%;
+  box-shadow: -1.5rem 1.5rem 0 0.6rem $pink-color;
+}
+
+.s-p-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  width: 40%;
+}
+
+.s-p-description h3 {
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  color: $primary-color;
+}
+
+.s-p-description p {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: $gray-color;
+  margin-bottom: 2rem;
 }
