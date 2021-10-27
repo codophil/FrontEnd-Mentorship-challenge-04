@@ -301,4 +301,36 @@ nav {
 .product-buttons button {
   margin-right: 2rem;
 }
+
+#stats {
+  padding: 4rem;
+  background-color: #FEF6F0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.product-stats {
+  text-align: center;
+  width: 30%;
+}
+
+.stat {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #453232;
+}
+
+.stat-title {
+  font-size: 2rem;
+  color: #797979;
+  padding-top: 1rem;
+}
+
+.franchises {
+  border-right: 0.1rem solid #453232;
+  border-left: 0.1rem solid #453232;
+}
 /*# sourceMappingURL=main.css.map */

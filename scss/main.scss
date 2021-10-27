@@ -239,3 +239,32 @@ nav {
 .product-buttons button {
   margin-right: 2rem;
 }
+
+#stats {
+  padding: 4rem;
+  background-color: $light-pink;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-stats {
+  text-align: center;
+  width: 30%;
+}
+
+.stat {
+  font-size: 5rem;
+  font-weight: 700;
+  color: $primary-color;
+}
+
+.stat-title {
+  font-size: 2rem;
+  color: $gray-color;
+  padding-top: 1rem;
+}
+
+.franchises {
+  border-right: 0.1rem solid $primary-color;
+  border-left: 0.1rem solid $primary-color;
+}
