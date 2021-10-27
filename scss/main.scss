@@ -86,7 +86,8 @@ nav {
   color: $white-color;
 }
 
-.details-btn {
+.details-btn,
+.buy-btn {
   padding: 1.8rem 3rem;
   border: none;
   background-color: $primary-color;
@@ -115,4 +116,45 @@ nav {
 #lenders img {
   width: 60%;
   margin: 2rem;
+}
+
+#about-us {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  width: 50%;
+}
+
+.about-us-left h2 {
+  font-size: 6rem;
+  color: $primary-color;
+}
+
+.about-us p {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: $gray-color;
+}
+
+.about-us-left img {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.about-us-right img {
+  width: 100%;
+}
+
+.read-more-btn {
+  padding: 1.5rem 3rem;
+  border-color: $primary-color;
+  background-color: $white-color;
+  color: $primary-color;
+  font-size: 1.5rem;
 }
