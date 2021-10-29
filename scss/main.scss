@@ -17,6 +17,12 @@
   background-color: $primary-color;
   color: $white-color;
   font-size: 1.5rem;
+  &:hover {
+    color: $primary-color;
+    background-color: $white-color;
+    border-color: $primary-color;
+    transition: 0.2s;
+  }
 }
 
 @mixin secondaryButton {
@@ -25,6 +31,16 @@
   background-color: $white-color;
   color: $primary-color;
   font-size: 1.5rem;
+  &:hover {
+    color: $white-color;
+    background-color: $primary-color;
+    border-color: transparent;
+    transition: 0.2s;
+  }
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 body {

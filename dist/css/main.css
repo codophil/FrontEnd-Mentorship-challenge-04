@@ -16,6 +16,10 @@ html {
   src: url(/fonts/Gilroy-Regular.ttf);
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 body {
   font-family: "Gilroy", "sans-serif";
 }
@@ -125,6 +129,15 @@ nav {
   font-size: 1.5rem;
 }
 
+.details-btn:hover,
+.buy-btn:hover {
+  color: #453232;
+  background-color: #fff;
+  border-color: #453232;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 #lenders {
   padding: 2rem;
   background-color: #FEF6F0;
@@ -203,6 +216,14 @@ nav {
   background-color: #fff;
   color: #453232;
   font-size: 1.5rem;
+}
+
+.read-more-btn:hover {
+  color: #fff;
+  background-color: #453232;
+  border-color: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 #products h2 {
