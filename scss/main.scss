@@ -376,3 +376,64 @@ nav {
   padding-top: 0.5rem;
   color: $gray-color;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 5% 2% 5%;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-a;
+  padding-bottom: 2rem;
+}
+
+.footer-mantra {
+  width: 20%;
+}
+
+.footer-mantra h2,
+.footer-menus h3 {
+  font-size: 2rem;
+  color: $primary-color;
+  padding-bottom: 0.8rem;
+}
+
+.footer-mantra p,
+.footer-menus ul {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  color: $gray-color;
+}
+
+.footer-menus {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.footer-menus ul {
+  list-style: none;
+}
+
+.footer-menus ul li {
+  padding-top: 0.8rem;
+}
+
+.footer-socials i {
+  color: $primary-color;
+  font-size: 3rem;
+  padding: 0 2rem 2rem 0;
+}
+
+footer hr {
+  margin: 2rem 0;
+  color: $gray-color;
+}
+
+.copy-right {
+  text-align: center;
+  font-size: 1.8rem;
+  color: $gray-color;
+}
