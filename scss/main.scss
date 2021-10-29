@@ -11,6 +11,22 @@
   color: $gray-color;
 }
 
+@mixin primaryButton {
+  padding: 1.5rem 3rem;
+  border-color: transparent;
+  background-color: $primary-color;
+  color: $white-color;
+  font-size: 1.5rem;
+}
+
+@mixin secondaryButton {
+  padding: 1.5rem 3rem;
+  border-color: $primary-color;
+  background-color: $white-color;
+  color: $primary-color;
+  font-size: 1.5rem;
+}
+
 body {
   font-family: $main-font;
 }
@@ -93,11 +109,7 @@ nav {
 
 .details-btn,
 .buy-btn {
-  padding: 1.5rem 3rem;
-  border-color: transparent;
-  background-color: $primary-color;
-  color: $white-color;
-  font-size: 1.5rem;
+  @include primaryButton();
 }
 
 #lenders {
@@ -157,11 +169,7 @@ nav {
 }
 
 .read-more-btn {
-  padding: 1.5rem 3rem;
-  border-color: $primary-color;
-  background-color: $white-color;
-  color: $primary-color;
-  font-size: 1.5rem;
+  @include secondaryButton();
 }
 
 #products h2 {
