@@ -388,4 +388,85 @@ nav {
   color: #797979;
   margin-bottom: 2rem;
 }
+
+#customers {
+  background-color: #FEF6F0;
+  padding: 6rem;
+}
+
+#customers h2 {
+  font-size: 6rem;
+  color: #453232;
+  text-align: center;
+}
+
+#customers > p {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: #797979;
+  text-align: center;
+}
+
+.customer-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3rem;
+}
+
+.customer-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  padding: 4rem;
+  background-color: #fff;
+}
+
+.fa-star {
+  color: #FE8B75;
+  font-size: 1.8rem;
+}
+
+.review-text {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+  color: #797979;
+}
+
+.customer-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.customer-photo {
+  margin-right: 1rem;
+}
+
+.customer-photo img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.customer-name h4 {
+  color: #453232;
+  font-size: 1.8rem;
+}
+
+.customer-name p {
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  color: #797979;
+}
 /*# sourceMappingURL=main.css.map */
