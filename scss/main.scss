@@ -6,6 +6,11 @@
   src: url(/fonts/Gilroy-Regular.ttf);
 }
 
+@mixin mainParagraph {
+  font-size: 1.8rem;
+  color: $gray-color;
+}
+
 body {
   font-family: $main-font;
 }
@@ -138,9 +143,8 @@ nav {
 }
 
 .about-us p {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
 }
 
 .about-us-left img {
@@ -167,9 +171,8 @@ nav {
 }
 
 #products > p {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
   text-align: center;
 }
 
@@ -199,9 +202,8 @@ nav {
 }
 
 .product-section > p {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
 }
 
 .products-ratings {
@@ -221,8 +223,7 @@ nav {
 }
 
 .rating-title {
-  font-size: 1.8rem;
-  color: $gray-color;
+  @include mainParagraph();
   padding-top: 0.5rem;
 }
 
@@ -302,9 +303,8 @@ nav {
 }
 
 .s-p-description p {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
   margin-bottom: 2rem;
 }
 
@@ -320,9 +320,8 @@ nav {
 }
 
 #customers > p {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
   text-align: center;
 }
 
@@ -346,9 +345,8 @@ nav {
 }
 
 .review-text {
-  font-size: 1.8rem;
+  @include mainParagraph();
   padding: 2rem 0;
-  color: $gray-color;
 }
 
 .customer-profile {
@@ -372,9 +370,8 @@ nav {
 }
 
 .customer-name p {
-  font-size: 1.5rem;
+  @include mainParagraph();
   padding-top: 0.5rem;
-  color: $gray-color;
 }
 
 footer {
@@ -385,7 +382,6 @@ footer {
 
 .footer-main {
   display: flex;
-  justify-content: space-a;
   padding-bottom: 2rem;
 }
 
@@ -402,9 +398,8 @@ footer {
 
 .footer-mantra p,
 .footer-menus ul {
-  font-size: 1.5rem;
+  @include mainParagraph();
   padding-top: 0.5rem;
-  color: $gray-color;
 }
 
 .footer-menus {
@@ -433,7 +428,6 @@ footer hr {
 }
 
 .copy-right {
+  @include mainParagraph();
   text-align: center;
-  font-size: 1.8rem;
-  color: $gray-color;
 }

@@ -184,8 +184,8 @@ nav {
 
 .about-us p {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
 }
 
 .about-us-left img {
@@ -213,8 +213,8 @@ nav {
 
 #products > p {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -256,8 +256,8 @@ nav {
 
 .product-section > p {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
 }
 
 .products-ratings {
@@ -384,8 +384,8 @@ nav {
 
 .s-p-description p {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
   margin-bottom: 2rem;
 }
 
@@ -402,8 +402,8 @@ nav {
 
 #customers > p {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -436,8 +436,8 @@ nav {
 
 .review-text {
   font-size: 1.8rem;
-  padding: 2rem 0;
   color: #797979;
+  padding: 2rem 0;
 }
 
 .customer-profile {
@@ -465,9 +465,9 @@ nav {
 }
 
 .customer-name p {
-  font-size: 1.5rem;
-  padding-top: 0.5rem;
+  font-size: 1.8rem;
   color: #797979;
+  padding-top: 0.5rem;
 }
 
 footer {
@@ -485,9 +485,6 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-a;
-      -ms-flex-pack: space-a;
-          justify-content: space-a;
   padding-bottom: 2rem;
 }
 
@@ -504,9 +501,9 @@ footer {
 
 .footer-mantra p,
 .footer-menus ul {
-  font-size: 1.5rem;
-  padding-top: 0.5rem;
+  font-size: 1.8rem;
   color: #797979;
+  padding-top: 0.5rem;
 }
 
 .footer-menus {
@@ -539,8 +536,8 @@ footer hr {
 }
 
 .copy-right {
-  text-align: center;
   font-size: 1.8rem;
   color: #797979;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
