@@ -39,6 +39,15 @@
   }
 }
 
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:hover {
+    filter: brightness(180%);
+    transition: 0.2s;
+  }
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -71,9 +80,9 @@ nav {
   font-size: 1.5rem;
 }
 
-.nav-items ul li a {
-  text-decoration: none;
-}
+// .nav-items ul li a {
+//   text-decoration: none;
+// }
 
 #showcase {
   background: url(/images/header-bg.jpg) no-repeat 80% 80%;

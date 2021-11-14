@@ -16,6 +16,18 @@ html {
   src: url(/fonts/Gilroy-Regular.ttf);
 }
 
+a {
+  text-decoration: none;
+  color: #453232;
+}
+
+a:hover {
+  -webkit-filter: brightness(180%);
+          filter: brightness(180%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -52,10 +64,6 @@ nav {
 .nav-menus ul li {
   padding: 0 1rem;
   font-size: 1.5rem;
-}
-
-.nav-items ul li a {
-  text-decoration: none;
 }
 
 #showcase {
