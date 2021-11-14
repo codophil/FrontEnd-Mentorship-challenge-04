@@ -7,8 +7,9 @@
 }
 
 @mixin mainParagraph {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: $gray-color;
+  line-height: 1.3;
 }
 
 @mixin primaryButton {
@@ -77,12 +78,9 @@ nav {
 .nav-items ul li,
 .nav-menus ul li {
   padding: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
-
-// .nav-items ul li a {
-//   text-decoration: none;
-// }
 
 #showcase {
   background: url(/images/header-bg.jpg) no-repeat 80% 80%;
@@ -112,7 +110,7 @@ nav {
 }
 
 .showcase-sections p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1rem;
 }
 

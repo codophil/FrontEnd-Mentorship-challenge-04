@@ -63,7 +63,8 @@ nav {
 .nav-items ul li,
 .nav-menus ul li {
   padding: 0 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 #showcase {
@@ -108,7 +109,7 @@ nav {
 }
 
 .showcase-sections p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1rem;
 }
 
@@ -204,8 +205,9 @@ nav {
 }
 
 .about-us p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
 }
 
@@ -241,8 +243,9 @@ nav {
 }
 
 #products > p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
   text-align: center;
 }
@@ -284,8 +287,9 @@ nav {
 }
 
 .product-section > p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
 }
 
@@ -310,8 +314,9 @@ nav {
 }
 
 .rating-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding-top: 0.5rem;
 }
 
@@ -412,8 +417,9 @@ nav {
 }
 
 .s-p-description p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
   margin-bottom: 2rem;
 }
@@ -430,8 +436,9 @@ nav {
 }
 
 #customers > p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
   text-align: center;
 }
@@ -464,8 +471,9 @@ nav {
 }
 
 .review-text {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding: 2rem 0;
 }
 
@@ -494,8 +502,9 @@ nav {
 }
 
 .customer-name p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding-top: 0.5rem;
 }
 
@@ -530,8 +539,9 @@ footer {
 
 .footer-mantra p,
 .footer-menus ul {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   padding-top: 0.5rem;
 }
 
@@ -565,8 +575,9 @@ footer hr {
 }
 
 .copy-right {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #797979;
+  line-height: 1.3;
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
